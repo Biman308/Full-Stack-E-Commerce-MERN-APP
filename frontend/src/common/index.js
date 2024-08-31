@@ -1,83 +1,83 @@
-const backendDomin = "http://localhost:8080"
+// This object organizes and stores information about different API endpoints
 
 const SummaryApi = {
-    signUP : {
-        url : `${backendDomin}/api/signup`,
-        method : "post"
+    signUP: {
+        url: 'http://localhost:8080/api/signup',
+        method: 'POST',
     },
-    signIn : {
-        url : `${backendDomin}/api/signin`,
-        method : "post"
+    signIn: {
+        url: 'http://localhost:8080/api/signin',
+        method: 'POST',
     },
-    current_user : {
-        url : `${backendDomin}/api/user-details`,
-        method : "get"
+    current_user: {
+        url: 'http://localhost:8080/api/user-details',
+        method: "GET"
     },
-    logout_user : {
-        url : `${backendDomin}/api/userLogout`,
-        method : 'get'
+    logout_user: {
+        url: 'http://localhost:8080/api/userLogout',
+        method: "GET"
     },
-    allUser : {
-        url : `${backendDomin}/api/all-user`,
-        method : 'get'
+    allUser: {
+        url: 'http://localhost:8080/api/all-user',
+        method: 'GET'
     },
-    updateUser : {
-        url : `${backendDomin}/api/update-user`,
-        method : "post"
+    updateUser: {
+        url: 'http://localhost:8080/api/update-user',
+        method: "POST"
     },
-    uploadProduct : {
-        url : `${backendDomin}/api/upload-product`,
-        method : 'post'
+    uploadProduct: {
+        url: 'http://localhost:8080/api/upload-product',
+        method: 'POST'
     },
-    allProduct : {
-        url : `${backendDomin}/api/get-product`,
-        method : 'get'
+    allProduct: {
+        url: 'http://localhost:8080/api/get-product',
+        method: 'GET'
     },
-    updateProduct : {
-        url : `${backendDomin}/api/update-product`,
-        method  : 'post'
+    updateProduct: {
+        url: 'http://localhost:8080/api/update-product',
+        method: 'POST'
     },
-    categoryProduct : {
-        url : `${backendDomin}/api/get-categoryProduct`,
-        method : 'get'
+    categoryProduct: {
+        url: 'http://localhost:8080/api/get-categoryProduct',
+        method: 'GET'
     },
-    categoryWiseProduct : {
-        url : `${backendDomin}/api/category-product`,
-        method : 'post'
+    categoryWiseProduct: {
+        url: 'http://localhost:8080/api/category-product',
+        method: 'POST'
     },
-    productDetails : {
-        url : `${backendDomin}/api/product-details`,
-        method : 'post'
+    productDetails: {
+        url: 'http://localhost:8080/api/product-details',
+        method: 'POST'
     },
-    addToCartProduct : {
-        url : `${backendDomin}/api/addtocart`,
-        method : 'post'
+    addToCartProduct: {
+        url: 'http://localhost:8080/api/addtocart',
+        method: 'POST'
     },
-    addToCartProductCount : {
-        url : `${backendDomin}/api/countAddToCartProduct`,
-        method : 'get'
+    addToCartProductCount: {
+        url: 'http://localhost:8080/api/countAddToCartProduct',
+        method: 'GET'
     },
-    addToCartProductView : {
-        url : `${backendDomin}/api/view-card-product`,
-        method : 'get'
+    addToCartProductView: {
+        url: 'http://localhost:8080/api/view-cart-product',
+        method: 'GET'
     },
-    updateCartProduct : {
-        url : `${backendDomin}/api/update-cart-product`,
-        method : 'post'
+    updateCartProduct: {
+        url: 'http://localhost:8080/api/update-cart-product',
+        method: 'POST'
     },
-    deleteCartProduct : {
-        url : `${backendDomin}/api/delete-cart-product`,
-        method : 'post'
+    deleteCartProduct: {
+        url: 'http://localhost:8080/api/delete-cart-product',
+        method: 'POST'
     },
-    searchProduct : {
-        url : `${backendDomin}/api/search`,
-        method : 'get'
+    searchProduct: {
+        url: 'http://localhost:8080/api/search',
+        method: 'GET'
     },
-    filterProduct : {
-        url : `${backendDomin}/api/filter-product`,
-        method : 'post'
+    filterProduct: {
+        url: 'http://localhost:8080/api/filter-product',
+        method: 'POST'
     }
 }
 
 
-export default SummaryApi
+export default SummaryApi;
