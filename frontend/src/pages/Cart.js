@@ -180,7 +180,7 @@ const Cart = () => {
                             </div>
                             ) : (
                                 <div className='h-36 bg-white'>
-                                    <h2 className='text-white bg-red-600 px-4 py-1'>Summary</h2>
+                                    <h2 className='text-white bg-red-600 px-4 py-2'>Summary</h2>
                                     <div className='flex items-center justify-between px-4 gap-2 font-medium text-lg text-slate-600'>
                                         <p>Quantity</p>
                                         <p>{totalQty}</p>
@@ -191,7 +191,7 @@ const Cart = () => {
                                         <p>{displayINRCurrency(totalPrice)}</p>    
                                     </div>
 
-                                    <button className='bg-blue-600 p-2 text-white w-full mt-2'>Payment</button>
+                                    <button className='bg-blue-600 p-1 text-white w-full mt-2'>Payment</button>
 
                                 </div>
                             )
