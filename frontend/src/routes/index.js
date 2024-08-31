@@ -2,7 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import App from '../App';
 import Home from '../pages/Home';
 import Login from '../pages/Login';
-import ForgotPasswrd from '../pages/ForgotPasswrd';
+import ForgotPassowrd from '../pages/ForgotPassowrd';
 import SignUp from '../pages/SignUp';
 import AdminPanel from '../pages/AdminPanel';
 import AllUsers from '../pages/AllUsers';
@@ -27,7 +27,7 @@ const Router = createBrowserRouter([  // Defining the Router
             },
             {
                 path: "forgot-password",
-                element: <ForgotPasswrd />
+                element: <ForgotPassowrd />
             },
             {
                 path: "sign-up",
